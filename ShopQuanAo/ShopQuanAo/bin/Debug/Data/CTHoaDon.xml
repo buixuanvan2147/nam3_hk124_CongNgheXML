@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CTHoaDons>
+  <CTHoaDon>
+    <MaHD>HD002</MaHD>
+    <MaSP>SP002</MaSP>
+    <SLMua>2</SLMua>
+    <ThanhTien>700000,00</ThanhTien>
+  </CTHoaDon>
+  <CTHoaDon>
+    <MaHD>HD001</MaHD>
+    <MaSP>SP002</MaSP>
+    <SLMua>2</SLMua>
+    <ThanhTien>700000,00</ThanhTien>
+  </CTHoaDon>
+  <CTHoaDon>
+    <MaHD>HD002</MaHD>
+    <MaSP>SP002</MaSP>
+    <SLMua>2</SLMua>
+    <ThanhTien>700000,00</ThanhTien>
+  </CTHoaDon>
+  <CTHoaDon>
+    <MaHD>HD003</MaHD>
+    <MaSP>SP001</MaSP>
+    <SLMua>1</SLMua>
+    <ThanhTien>210000,00</ThanhTien>
+  </CTHoaDon>
+  <CTHoaDon>
+    <MaHD>HD001</MaHD>
+    <MaSP>SP003</MaSP>
+    <SLMua>2</SLMua>
+    <ThanhTien>1600000,00</ThanhTien>
+  </CTHoaDon>
+</CTHoaDons>

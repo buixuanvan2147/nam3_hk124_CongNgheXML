@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SanPhams>
+  <SanPham>
+    <MaSP>SP001</MaSP>
+    <TenSP>Áo thun</TenSP>
+    <Gia>210000</Gia>
+    <Loai>Thời trang</Loai>
+    <XuatXu>Vietnam</XuatXu>
+    <SoLuong>100</SoLuong>
+  </SanPham>
+  <SanPham>
+    <MaSP>SP002</MaSP>
+    <TenSP>Quần jean</TenSP>
+    <Gia>350000</Gia>
+    <Loai>Thời trang</Loai>
+    <XuatXu>Vietnam</XuatXu>
+    <SoLuong>50</SoLuong>
+  </SanPham>
+  <SanPham>
+    <MaSP>SP003</MaSP>
+    <TenSP>Giày thể thao</TenSP>
+    <Gia>800000</Gia>
+    <Loai>Giày dép</Loai>
+    <XuatXu>China</XuatXu>
+    <SoLuong>30</SoLuong>
+  </SanPham>
+  <SanPham>
+    <MaSP>SP004</MaSP>
+    <TenSP>Túi xách</TenSP>
+    <Gia>600000</Gia>
+    <Loai>Phụ kiện</Loai>
+    <XuatXu>Vietnam</XuatXu>
+    <SoLuong>120</SoLuong>
+  </SanPham>
+  <SanPham>
+    <MaSP>SP005</MaSP>
+    <TenSP>Áo khoác</TenSP>
+    <Gia>500000</Gia>
+    <Loai>Thời trang</Loai>
+    <XuatXu>Vietnam</XuatXu>
+    <SoLuong>80</SoLuong>
+  </SanPham>
+</SanPhams>

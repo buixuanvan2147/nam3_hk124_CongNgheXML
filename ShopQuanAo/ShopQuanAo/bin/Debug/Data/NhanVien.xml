@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NhanViens>
+  <NhanVien>
+    <MaNV>NV001</MaNV>
+    <HoTen>Tran Dinh Viet</HoTen>
+    <DiaChi>Ha Tinh</DiaChi>
+    <SDTNV>0904957943</SDTNV>
+  </NhanVien>
+  <NhanVien>
+    <MaNV>NV002</MaNV>
+    <HoTen>Bui Xuan Van</HoTen>
+    <DiaChi>Quang Nam</DiaChi>
+    <SDTNV>0123456788</SDTNV>
+  </NhanVien>
+  <NhanVien>
+    <MaNV>NV003</MaNV>
+    <HoTen>Nguyen Van Hai</HoTen>
+    <DiaChi>Ha tinh</DiaChi>
+    <SDTNV>0123456789</SDTNV>
+  </NhanVien>
+  <NhanVien>
+    <MaNV>NV004</MaNV>
+    <HoTen>Nguyen Van A</HoTen>
+    <DiaChi>Ha tinh</DiaChi>
+    <SDTNV>0123456782</SDTNV>
+  </NhanVien>
+</NhanViens>

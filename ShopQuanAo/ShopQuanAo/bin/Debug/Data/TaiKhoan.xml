@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TaiKhoans>
+  <TaiKhoan>
+    <TenDangNhap>admin1</TenDangNhap>
+    <MatKhau>admin123</MatKhau>
+    <Quyen>Admin</Quyen>
+  </TaiKhoan>
+  <TaiKhoan>
+    <TenDangNhap>admin2</TenDangNhap>
+    <MatKhau>admin45</MatKhau>
+    <Quyen>Admin</Quyen>
+  </TaiKhoan>
+  <TaiKhoan>
+    <TenDangNhap>user1</TenDangNhap>
+    <MatKhau>user123</MatKhau>
+    <Quyen>User</Quyen>
+  </TaiKhoan>
+  <TaiKhoan>
+    <TenDangNhap>user2</TenDangNhap>
+    <MatKhau>user456</MatKhau>
+    <Quyen>User</Quyen>
+  </TaiKhoan>
+  <TaiKhoan>
+    <TenDangNhap>user3</TenDangNhap>
+    <MatKhau>user</MatKhau>
+    <Quyen>User</Quyen>
+  </TaiKhoan>
+  <TaiKhoan>
+    <TenDangNhap>admin3</TenDangNhap>
+    <MatKhau>admin</MatKhau>
+    <Quyen>Admin</Quyen>
+  </TaiKhoan>
+</TaiKhoans>

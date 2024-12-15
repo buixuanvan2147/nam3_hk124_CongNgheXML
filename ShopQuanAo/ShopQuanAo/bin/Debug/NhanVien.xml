@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <NhanVien>
+    <MaNV>NV002</MaNV>
+    <HoTen>Nguyen Van B</HoTen>
+    <DiaChi>TP HCM</DiaChi>
+    <SDTNV>0987654321</SDTNV>
+  </NhanVien>
+</NewDataSet>
