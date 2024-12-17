@@ -31,7 +31,7 @@ namespace ShopQuanAo
         {
             LoadNhanVien();
             // Đường dẫn tới file XML
-            string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\CTHoaDon.xml";
+            string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\CTHoaDon.xml";
 
             try
             {
@@ -84,8 +84,8 @@ namespace ShopQuanAo
         private void UpdateSqlFromXml()
         {
             // Đường dẫn đến file XML CTHoaDon
-            string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\CTHoaDon.xml";
-            string connectionString = @"Data Source=TranDinhViet;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+            string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\CTHoaDon.xml";
+            string connectionString = @"Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
 
             try
             {
@@ -230,7 +230,7 @@ namespace ShopQuanAo
             decimal giaSP = 0;
 
             // Truy vấn giá sản phẩm từ cơ sở dữ liệu
-            string connectionString = @"Data Source=TranDinhViet;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+            string connectionString = @"Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
             string query = "SELECT Gia FROM SanPham WHERE MaSP = @MaSP"; // Sửa lại tên cột Gia
 
             using (SqlConnection conn = new SqlConnection(connectionString))
@@ -271,7 +271,7 @@ namespace ShopQuanAo
                 return;
             }
 
-            string connectionString = @"Data Source=TranDinhViet;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+            string connectionString = @"Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
 
             try
             {
@@ -342,10 +342,10 @@ namespace ShopQuanAo
             string maSP = txtMasp.Text.Trim();  // Thêm trường mã sản phẩm (nếu cần)
 
             // Đường dẫn đến file XML
-            string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\CTHoaDon.xml";
+            string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\CTHoaDon.xml";
 
             // Kết nối với cơ sở dữ liệu SQL Server
-            string connectionString = @"Data Source=TranDinhViet;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+            string connectionString = @"Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
 
             try
             {
@@ -420,7 +420,7 @@ namespace ShopQuanAo
             }
 
             // Đường dẫn đến file XML
-            string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\CTHoaDon.xml";
+            string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\CTHoaDon.xml";
 
             try
             {
@@ -477,7 +477,7 @@ namespace ShopQuanAo
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-            string connectionString = @"Data Source=TranDinhViet;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+            string connectionString = @"Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
 
             try
             {
@@ -514,7 +514,7 @@ namespace ShopQuanAo
 
         private void Searchbtn_Click(object sender, EventArgs e)
         {
-            string connectionString = @"Data Source=TranDinhViet;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+            string connectionString = @"Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
 
             // Lấy nội dung trong textBoxSearch và loại bỏ khoảng trắng thừa
             string searchQuery = textBoxSearch.Text.Trim(); // Giữ nguyên nội dung tìm kiếm
@@ -586,7 +586,7 @@ namespace ShopQuanAo
         }
         private void LoadNhanVien()
         {
-            string connectionString = "Data Source=.;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+            string connectionString = "Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
@@ -603,7 +603,7 @@ namespace ShopQuanAo
         }
         private void LoadHoaDon()
         {
-            string connectionString = @"Data Source=TranDinhViet;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+            string connectionString = @"Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
 
             try
             {
@@ -626,7 +626,7 @@ namespace ShopQuanAo
         }
         private void SaveHoaDonToXml(string maHD, string maNV, DateTime ngayLap)
         {
-            string filePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\HoaDon.xml"; // Đường dẫn file HoaDon.xml
+            string filePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\HoaDon.xml"; // Đường dẫn file HoaDon.xml
 
             // Load file XML
             XmlDocument xmlDoc = new XmlDocument();
@@ -655,7 +655,7 @@ namespace ShopQuanAo
         }
         private void SaveCTHoaDonToXml(string maHD, string maSP, int slMua, decimal thanhTien)
         {
-            string filePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\CTHoaDon.xml"; // Đường dẫn file CTHoaDons.xml
+            string filePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\CTHoaDon.xml"; // Đường dẫn file CTHoaDons.xml
 
             // Nếu file CTHoaDons.xml không tồn tại, tạo mới
 
@@ -691,7 +691,7 @@ namespace ShopQuanAo
 
         private void xuatHoaDon_Click(object sender, EventArgs e)
         {
-            string filePath = "C:\\Users\\ahiha\\source\\repos\\ShopQuanAo\\ShopQuanAo\\ShopQuanAo\\bin\\Debug\\Data\\CTHoaDon.xml"; // Đường dẫn đến file XML
+            string filePath = "D:\\nam3-HK124\\Cong-nghe-XML-124CNX01\\BaiTapLon\\ShopQuanAo\\ShopQuanAo\\bin\\Debug\\Data\\CTHoaDon.xml"; // Đường dẫn đến file XML
 
             if (File.Exists(filePath))
             {

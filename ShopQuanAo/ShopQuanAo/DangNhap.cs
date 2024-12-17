@@ -19,7 +19,7 @@ namespace ShopQuanAo
             string matKhau = txtMatKhau.Text;
 
             // Đường dẫn đến file XML chứa thông tin tài khoản
-            string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\TaiKhoan.xml";
+            string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\TaiKhoan.xml";
 
             try
             {

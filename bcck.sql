@@ -52,3 +52,26 @@ CREATE TABLE TaiKhoan (
     Quyen NVARCHAR(20)
 );
 GO
+
+select * from HoaDon
+-- Insert dữ liệu vào bảng HoaDon
+	INSERT INTO HoaDon (MaHD, MaNV, NgayLap) VALUES 
+	(N'HD001', N'NV002', '2024-12-15 19:14:23'),
+	(N'HD002', N'NV002', '2024-12-15 19:12:57'),
+	(N'HD003', N'NV001', '2024-12-15 19:26:11'),
+	(N'HD004', N'NV001', '2024-12-15 21:23:47'),
+	(N'HD005', N'NV001', '2024-12-15 21:57:44');
+	GO
+
+select * from SanPham
+
+select * from nhanvien
+
+select * from CTHoaDon
+-- Chèn dữ liệu vào bảng CTHoaDon theo thứ tự MaHD
+	INSERT INTO CTHoaDon (MaHD, MaSP, SLMua, ThanhTien) VALUES 
+	(N'HD001', N'SP002', 2, 700000.00),
+	(N'HD001', N'SP003', 2, 1600000.00),
+	(N'HD002', N'SP002', 2, 700000.00),
+	(N'HD003', N'SP001', 1, 210000.00);
+	GO

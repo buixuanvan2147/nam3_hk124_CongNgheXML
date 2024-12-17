@@ -32,7 +32,7 @@
             private void QLNV_Load(object sender, EventArgs e)
             {
                 // Đường dẫn tới file XML
-                string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
+                string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
 
                 try
                 {
@@ -118,7 +118,7 @@
             }
 
             // Đường dẫn file XML
-            string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
+            string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
 
             try
             {
@@ -203,7 +203,7 @@
                 string sdtNV = txtSDTNV.Text;
 
                 // Đường dẫn đến file XML
-                string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
+                string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
 
                 try
                 {
@@ -250,8 +250,8 @@
 
         private void UpdateSqlFromXml()
         {
-            string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
-            string connectionString = @"Data Source=TranDinhViet;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+            string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
+            string connectionString = @"Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
 
             try
             {
@@ -319,9 +319,9 @@
                 string maNV = txtMaNv.Text;
 
                 // Đường dẫn đến file XML
-                string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
+                string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
 
-                string connectionString = @"Data Source=TranDinhViet;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+                string connectionString = @"Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
 
                 try
                 {
@@ -379,7 +379,7 @@
             private void btnLoad_Click(object sender, EventArgs e)
             {
                 // Đường dẫn tới file XML
-                string xmlFilePath = @"C:\Users\ahiha\source\repos\ShopQuanAo\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
+                string xmlFilePath = @"D:\nam3-HK124\Cong-nghe-XML-124CNX01\BaiTapLon\ShopQuanAo\ShopQuanAo\bin\Debug\Data\NhanVien.xml";
 
                 try
                 {
@@ -446,7 +446,7 @@
         private void Searchbtn_Click(object sender, EventArgs e)
         {
             // Đường dẫn kết nối đến cơ sở dữ liệu SQL Server
-            string connectionString = @"Data Source=TranDinhViet;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
+            string connectionString = @"Data Source=LAPTOP-V3R09SE1;Initial Catalog=ShopThoiTrang1;Integrated Security=True";
 
             // Lấy nội dung trong textBoxSearch và loại bỏ khoảng trắng thừa
             string searchQuery = textBoxSearch.Text.Trim().ToLower(); // Chuyển sang chữ thường để tìm kiếm không phân biệt hoa-thường
